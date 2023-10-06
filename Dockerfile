@@ -1,6 +1,6 @@
 FROM centos:latest
 MAINTAINER smruti@gmail.com
-RUN yum install httpd -y \
+RUN yum install -y httpd \
   zip \
   unzip 
 ADD https://www.free-css.com/assets/files/free-css-templates/download/page296/mediplus-lite.zip /var/www/html/
